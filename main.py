@@ -1,5 +1,5 @@
 from random import randint
-print("hello and welcome to the game rock, paper and sissors")
+print("hello and welcome to the game rock, paper and scissors")
 player = input('rock (r), paper (p) or scissors (s)?')
 print(player, 'vs', end='')
 chosen = randint(1, 3)
